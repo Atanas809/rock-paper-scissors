@@ -11,3 +11,6 @@ def who_wins(player1, player2):
 
 
 def game():
+
+    user = input("(R) for Rock"
+                 "\n(P) for Paper"
