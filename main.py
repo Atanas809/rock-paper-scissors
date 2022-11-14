@@ -21,3 +21,6 @@ def game():
 
     if user == computer:
         return "It's a tie!"
+
+    if who_wins(user, computer):
+        return "You won!"
