@@ -18,3 +18,6 @@ def game():
                  "\nMake your choice: ").lower()
 
     computer = random.choice(["R", "P", "S"]).lower()
+
+    if user == computer:
+        return "It's a tie!"
